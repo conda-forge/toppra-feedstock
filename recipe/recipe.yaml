@@ -11,7 +11,7 @@ source:
   sha256: 31213336fc36a69e8003808e7317773ba7c78e503c8cbd6d01fe2d50660e3294
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - package:
@@ -19,7 +19,7 @@ outputs:
       version: ${{ version }}
     build:
       skip:
-        - not linux
+        - win
       script: |
         cmake -S "${SRC_DIR}/cpp" \
           -B build/toppra \
