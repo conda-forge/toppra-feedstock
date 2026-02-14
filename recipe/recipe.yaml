@@ -49,7 +49,8 @@ outputs:
       - if: win
         then:
           package_contents:
-            lib: Library/bin/toppra.dll
+            files:
+              - Library/bin/toppra.dll
 
 about:
   homepage: https://github.com/hungpham2511/toppra
