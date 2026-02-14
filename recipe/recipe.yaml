@@ -7,8 +7,11 @@ recipe:
   version: ${{ version }}
 
 source:
-  url: https://github.com/hungpham2511/toppra/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 31213336fc36a69e8003808e7317773ba7c78e503c8cbd6d01fe2d50660e3294
+  # url: https://github.com/hungpham2511/toppra/archive/refs/tags/v${{ version }}.tar.gz
+  # sha256: 31213336fc36a69e8003808e7317773ba7c78e503c8cbd6d01fe2d50660e3294
+  # TODO: Change this with upstream
+  url: https://github.com/open-planning/toppra.git
+  rev: 676a21117a6f2d9196776fd058179737858c7be9
 
 build:
   number: 1
