@@ -3,6 +3,23 @@ About toppra-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/toppra-feedstock/blob/main/LICENSE.txt)
 
+
+About toppra
+------------
+
+Home: https://github.com/hungpham2511/toppra
+
+Package license: MIT
+
+Summary: Path parameterization for robots
+
+Development: https://github.com/hungpham2511/toppra
+
+Documentation: https://hungpham2511.github.io/toppra/index.html
+
+About toppra
+------------
+
 Home: https://github.com/hungpham2511/toppra
 
 Package license: MIT
