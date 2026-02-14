@@ -18,17 +18,11 @@ outputs:
       name: libtoppra
       version: ${{ version }}
     build:
-      skip:
-        - win
-      script: |
-        cmake -S "${SRC_DIR}/cpp" \
-          -B build/toppra \
-          -G Ninja \
-          -DPYTHON_BINDINGS=OFF \
-          -DBUILD_TESTS=OFF \
-          ${CMAKE_ARGS}
-        cmake --build build/toppra
-        cmake --install build/toppra
+      script:
+        - if: unix
+          then: build.sh
+        - if: win
+          then: build.bat
     requirements:
       run_exports:
         - ${{ pin_subpackage("libtoppra", upper_bound="x.x.x") }}
@@ -48,9 +42,15 @@ outputs:
         from_package:
           - gtest
     tests:
-      - package_contents:
-          lib:
-            - toppra
+      - if: unix
+        then:
+          package_contents:
+            lib: toppra
+      - if: win
+        then:
+          package_contents:
+            files:
+              - Library/lib/toppra.dll
 
 about:
   homepage: https://github.com/hungpham2511/toppra
