@@ -31,7 +31,9 @@ outputs:
       run_exports:
         - ${{ pin_subpackage("libtoppra", upper_bound="x.x.x") }}
       build:
-        - ${{ compiler('c') }}
+        - if: linux
+          then:
+            - ${{ stdlib('c') }}
         - ${{ compiler('cxx') }}
         - cmake
         - ninja
