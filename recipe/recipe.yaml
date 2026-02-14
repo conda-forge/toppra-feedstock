@@ -11,15 +11,13 @@ source:
   sha256: 31213336fc36a69e8003808e7317773ba7c78e503c8cbd6d01fe2d50660e3294
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - package:
       name: libtoppra
       version: ${{ version }}
     build:
-      skip:
-        - not linux
       script: |
         cmake -S "${SRC_DIR}/cpp" \
           -B build/toppra \
@@ -33,7 +31,7 @@ outputs:
       run_exports:
         - ${{ pin_subpackage("libtoppra", upper_bound="x.x.x") }}
       build:
-        - ${{ stdlib('c') }}
+        - ${{ compiler('c') }}
         - ${{ compiler('cxx') }}
         - cmake
         - ninja
