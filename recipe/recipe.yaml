@@ -50,7 +50,7 @@ outputs:
         then:
           package_contents:
             files:
-              - Library/bin/toppra.dll
+              - Library/lib/toppra.dll
 
 about:
   homepage: https://github.com/hungpham2511/toppra
