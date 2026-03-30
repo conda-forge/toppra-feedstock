@@ -35,7 +35,7 @@ outputs:
         - eigen
         - gtest
       run:
-        - eigen
+        - eigen-abi-devel
       ignore_run_exports:
         by_name:
           - gtest
