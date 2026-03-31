@@ -1,6 +1,6 @@
 @echo off
 
-cmake -S "%SRC_DIR%\cpp" ^
+cmake -S cpp ^
       -B build\toppra ^
       -G Ninja ^
       -DPYTHON_BINDINGS=OFF ^
