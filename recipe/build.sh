@@ -1,4 +1,4 @@
-cmake -S cpp \
+cmake -S "${SRC_DIR}/cpp" \
     -B build/toppra \
     -G Ninja \
     -DPYTHON_BINDINGS=OFF \

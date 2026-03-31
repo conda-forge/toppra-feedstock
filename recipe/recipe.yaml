@@ -10,7 +10,7 @@ source:
   # url: https://github.com/hungpham2511/toppra/archive/refs/tags/${{ version }}.tar.gz
   # sha256: 7fb2698ce14e28b1397cf90b9b4e8ab97b8af581d6bd1245d71646064802f1e9
   git: https://github.com/hungpham2511/toppra.git
-  rev: fix-cmake-logic
+  rev: f45e44420d92771646b7d0414a4980666975659c
 
 build:
   number: 0
@@ -37,7 +37,7 @@ outputs:
         - eigen
         - gtest
       run:
-        - eigen-abi-devel
+        - eigen
       ignore_run_exports:
         by_name:
           - gtest
