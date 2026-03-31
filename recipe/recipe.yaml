@@ -9,8 +9,8 @@ recipe:
 source:
   # url: https://github.com/hungpham2511/toppra/archive/refs/tags/${{ version }}.tar.gz
   # sha256: 7fb2698ce14e28b1397cf90b9b4e8ab97b8af581d6bd1245d71646064802f1e9
-  git: https://github.com/hungpham2511/toppra.git
-  rev: fix-cmake-logic
+  git_url: https://github.com/hungpham2511/toppra.git
+  git_rev: fix-cmake-logic
 
 build:
   number: 0
