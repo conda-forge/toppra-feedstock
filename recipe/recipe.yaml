@@ -11,7 +11,7 @@ source:
   sha256: 6e4f4225f3fa1fb4d7d03f6fab2bda2b450c35bcfb972a60eb8d6a5edf13de37
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - package:
@@ -32,10 +32,10 @@ outputs:
         - cmake
         - ninja
       host:
-        - eigen
+        - eigen-abi-devel
         - gtest
       run:
-        - eigen
+        - eigen-abi-devel
       ignore_run_exports:
         by_name:
           - gtest
