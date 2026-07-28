@@ -65,6 +65,7 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-libtoppra-green.svg)](https://anaconda.org/conda-forge/libtoppra) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libtoppra.svg)](https://anaconda.org/conda-forge/libtoppra) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libtoppra.svg)](https://anaconda.org/conda-forge/libtoppra) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libtoppra.svg)](https://anaconda.org/conda-forge/libtoppra) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-toppra--python-green.svg)](https://anaconda.org/conda-forge/toppra-python) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/toppra-python.svg)](https://anaconda.org/conda-forge/toppra-python) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/toppra-python.svg)](https://anaconda.org/conda-forge/toppra-python) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/toppra-python.svg)](https://anaconda.org/conda-forge/toppra-python) |
 
 Installing toppra
 =================
@@ -76,16 +77,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `libtoppra` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `libtoppra, toppra-python` can be installed with `conda`:
 
 ```
-conda install libtoppra
+conda install libtoppra toppra-python
 ```
 
 or with `mamba`:
 
 ```
-mamba install libtoppra
+mamba install libtoppra toppra-python
 ```
 
 It is possible to list all of the versions of `libtoppra` available on your platform with `conda`:
