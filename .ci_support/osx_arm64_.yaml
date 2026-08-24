@@ -13,7 +13,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '19'
+- '21'
 eigen_abi_devel:
 - 5.0.1
 macos_machine:
@@ -24,5 +24,9 @@ pin_run_as_build:
     max_pin: x.x
 python:
 - 3.10.* *_cpython
+- 3.11.* *_cpython
+- 3.12.* *_cpython
+- 3.13.* *_cp313
+- 3.14.* *_cp314
 target_platform:
 - osx-arm64
