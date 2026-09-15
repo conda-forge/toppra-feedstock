@@ -70,6 +70,7 @@ outputs:
             - python
             - cross-python_${{ target_platform }}
             - pybind11
+            - crossenv <1.6  # TODO: Remove once https://github.com/robotpy/crossenv/pull/166 lands
       host:
         - ${{ pin_subpackage("libtoppra", exact=True) }}
         - eigen-abi-devel
