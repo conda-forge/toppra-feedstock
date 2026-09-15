@@ -1,0 +1,6 @@
+# Also build against eigen 3.4 so that downstream packages pinned to the older
+# eigen ABI (e.g. RoboStack humble) can still use libtoppra.
+# eigen-abi-devel 3.4.0 is not available on linux-riscv64.
+eigen_abi_devel:
+  - "3.4.0"   # [not riscv64]
+  - "5.0.1"
