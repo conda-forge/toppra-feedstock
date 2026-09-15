@@ -11,7 +11,7 @@ source:
   sha256: bf3f9794dea87890453e6e3ffaf4213bddf68f494e6091e7b04dba7b224e67d5
 
 build:
-  number: 2
+  number: 3
 
 outputs:
   - package:
@@ -70,6 +70,7 @@ outputs:
             - python
             - cross-python_${{ target_platform }}
             - pybind11
+            - crossenv <1.6  # TODO: Remove once https://github.com/robotpy/crossenv/pull/166 lands
       host:
         - ${{ pin_subpackage("libtoppra", exact=True) }}
         - eigen-abi-devel
