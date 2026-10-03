@@ -38,31 +38,59 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_eigen_abi_devel3.4.0</td>
+              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel3.4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_eigen_abi_devel3.4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel3.4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_eigen_abi_devel5.0.1</td>
+              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel5.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_eigen_abi_devel5.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel5.0.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_eigen_abi_devel3.4.0</td>
+              <td>osx_64_channel_sourcesconda-forgeeigen_abi_devel3.4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_eigen_abi_devel3.4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeeigen_abi_devel3.4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_eigen_abi_devel5.0.1</td>
+              <td>osx_64_channel_sourcesconda-forgeeigen_abi_devel5.0.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_eigen_abi_devel5.0.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeeigen_abi_devel5.0.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel3.4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel3.4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel5.0.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeconda-forgelabelpython_rceigen_abi_devel5.0.1" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_sourcesconda-forgeeigen_abi_devel3.4.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeeigen_abi_devel3.4.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_sourcesconda-forgeeigen_abi_devel5.0.1</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27268&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/toppra-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgeeigen_abi_devel5.0.1" alt="variant">
                 </a>
               </td>
             </tr>
