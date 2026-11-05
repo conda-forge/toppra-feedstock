@@ -1,6 +1,6 @@
 context:
   name: toppra
-  version: "0.6.10"
+  version: "0.6.11"
 
 recipe:
   name: toppra
@@ -8,10 +8,10 @@ recipe:
 
 source:
   url: https://github.com/hungpham2511/toppra/archive/refs/tags/${{ version }}.tar.gz
-  sha256: bf3f9794dea87890453e6e3ffaf4213bddf68f494e6091e7b04dba7b224e67d5
+  sha256: 392a5bb97d08fc9d7e2289e101fa7afccb7ee57b56a307fcc8946d6dda28f088
 
 build:
-  number: 4
+  number: 0
 
 outputs:
   - package:
